@@ -23,14 +23,12 @@ class Point:
         return Point(new_x, new_y)
 
     def __str__(self):
-        return f"Point({self.x}, {self.y})"
-
-    def __repr__(self):
-        return f"Point({self.x}, {self.y})"
+        return f'Point:({self.x}, {self.y})'
 
 
 point1 = Point(3,4)
 point2 = Point(7,6)
 print(point1.get_y())
+print(point2.get_y())
 print(point1.distance(point2))
 print(point1.sum(point2))

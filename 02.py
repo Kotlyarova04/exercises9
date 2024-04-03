@@ -1,4 +1,7 @@
 class NotSleeping:
+    """Clss representing a 'not sleeping' person
+    Method: add_sheep()- for counting sheeeps
+    """
     def __init__(self):
         self.sheep = 0
 
