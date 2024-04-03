@@ -1,9 +1,11 @@
 class Users:
-    """Class representing a user of the website
+    """
+    Class representing a user of the website
     Atributes:
-    required: id,nick_name, first_name
+    required: id, nick_name, first_name
     unnecessary: last_name, middle_name, gender
-    Method: update() - sets the value of the atribute"""
+    Method: update() - sets the value of the atribute
+    """
     def __init__(self, id, nick_name, first_name, last_name=None, middle_name=None, gender=None):
         self.id = id
         self.nick_name = nick_name

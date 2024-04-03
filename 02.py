@@ -1,5 +1,7 @@
 class NotSleeping:
-    """Clss representing a 'not sleeping' person
+    """
+    Class representing a 'not sleeping' person
+    Atributes: sheep - initial quantity
     Method: add_sheep()- for counting sheeeps
     """
     def __init__(self):
@@ -13,4 +15,3 @@ class NotSleeping:
 person = NotSleeping()
 person.add_sheep()
 print(person.add_sheep())
-

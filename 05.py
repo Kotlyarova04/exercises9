@@ -1,11 +1,13 @@
 class Game:
-    """Class representing a basketball game
+    """
+    Class representing a basketball game
     Atributes: team - dict: containing infromation about teams:
                keys: 'command1', 'command2'
                values: points
     Methods: ball_thrown() - adds the number of points
-    get_score() - return the current scores
-     get_winner()- return the name of the winning team"""
+             get_score() - return the current scores
+             get_winner()- return the name of the winning team
+    """
     def __init__(self, teams):
         self.teams = {teams['command1']: 0, teams['command2']:0}
 

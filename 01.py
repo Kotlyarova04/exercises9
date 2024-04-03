@@ -1,5 +1,9 @@
 class Dog:
-    """Class return what the Dog say."""
+    """
+    Class representing Dog.
+    Atributes: name - the dog's name
+    Method: say() - return what the dog said
+    """
 
     def __init__(self, name):
         self.name = name
